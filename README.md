@@ -16,7 +16,7 @@ Searchの隣のタブを設定し検索範囲をAssets以下から特定のフ�
 1.  以下のようにスプライトを呼び出す。
 
 ```
-var sprite = Resources.Load<TextureAsset>(assetName).sprite = item.sprite;
+var sprite = Resources.Load<TextureAsset>(assetName).sprite;
 ```
 
 この方法で呼び出すと、SpritePackerとして同一テクスチャにAtlas化されている全てのスプライトが呼ばれてしまう事と同義。
